@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Layout"
+    android:background="#000"
+    tools:context="com.example.shehroz.mathsquiz.RulesActivity">
+
+    <TextView
+        android:id="@+id/HighScoreView"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="59dp"
+        android:text="Game Rules :"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="19dp"
+        android:text="2-) The player with the maximum correct answers wins.  "
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="19dp"
+        android:text="3-) Your percentage must be greater or equal to 80. "
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="28dp"
+        android:text="1-) You have 30 seconds to solve these questions.  "
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:onClick="onGOback"
+        android:text=" back!"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="italic" />
+</RelativeLayout>

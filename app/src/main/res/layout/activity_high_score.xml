@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggg"
+    tools:context="com.example.shehroz.mathsquiz.HighScoreActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="  High Score"
+        android:textColor="#fff"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/buttonAddHighScore"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonSubHighScore"
+        android:layout_alignStart="@+id/buttonSubHighScore"
+
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="Addition"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/buttonSubHighScore"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMulHighScore"
+        android:layout_alignStart="@+id/buttonMulHighScore"
+
+        android:layout_below="@+id/buttonAddHighScore"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+        android:text="Subtraction"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/buttonMulHighScore"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSubHighScore"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="24dp"
+        android:background="@drawable/rounded_button"
+        android:text="Multiplication"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/buttonDivHighScore"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonMulHighScore"
+        android:layout_alignStart="@+id/buttonMulHighScore"
+        android:layout_below="@+id/buttonMulHighScore"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/rounded_button"
+        android:text="Division"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/buttonAllHighScore"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonDivHighScore"
+        android:layout_alignStart="@+id/buttonDivHighScore"
+        android:layout_below="@+id/buttonDivHighScore"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_button"
+
+        android:text="All"
+        android:textColor="#fff"
+        android:textSize="27sp" />
+
+</RelativeLayout>

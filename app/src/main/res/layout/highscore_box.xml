@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/HSshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:text=" Highest score is : "
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/HighScoreID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" 12 "
+        android:textSize="32sp"
+        android:textColor="#f32"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/PERshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:text=" with  "
+        android:textColor="#fff"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/PercentageID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" 0% "
+        android:textSize="32sp"
+        android:textColor="#f32"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:padding="10dp"
+        android:text="ok"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="5dp" />
+
+
+</LinearLayout>
